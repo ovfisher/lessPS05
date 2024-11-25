@@ -1,0 +1,2 @@
+# lessPS05
+ scrapy
