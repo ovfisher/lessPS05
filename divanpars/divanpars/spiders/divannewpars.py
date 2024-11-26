@@ -1,10 +1,9 @@
 import scrapy
 
-
 class DivannewparsSpider(scrapy.Spider):
     name = "divannewpars"
     allowed_domains = ["https://divan.ru"]
-    start_urls = ["https://divan.ru/category/divany-i-kresla"]
+    start_urls = ["https://www.divan.ru/category/potolocnye-svetilniki"]
 
     def parse(self, response):
             # Создаём переменную, в которую будет сохраняться информация
